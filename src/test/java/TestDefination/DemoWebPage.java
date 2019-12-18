@@ -18,7 +18,7 @@ public class DemoWebPage {
 	  System.setProperty("webdriver.chrome.driver", "C:\\Users\\n.ajit.ichalkaranje\\Documents\\selenium-monday\\target\\chromedriver.exe");
 	  driver =new ChromeDriver();
 	  driver.get("http://demowebshop.tricentis.com/");
-	   // throw new cucumber.api.PendingException();
+	   // throw new cucumber.api.PendingException(); //bbjkb
 	}
 
 	@Given("user click on register button")
